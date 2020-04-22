@@ -1,0 +1,56 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+    /*display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;*/
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(115, 226, 226);
+    background-image:url("images/YDRETME_1.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 0px;
+
+  }
+
+  td, th {
+    border: 1px solid white;
+    text-align: left;
+    padding: 20px;
+  }
+
+  tr:nth-child(even) {
+    background-color:rgb(189, 204, 204);
+  }
+
+  .myclass1{
+    width: 60%;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .myclass2{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
