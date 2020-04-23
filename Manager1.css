@@ -8,7 +8,7 @@ body {
     display: flex;
     -ms-flex-align: center;
     align-items: center;*/
-    padding-top: 40px;
+    padding-top: 0px;
     padding-bottom: 40px;
     background-color: rgb(115, 226, 226);
     background-image:url("images/YDRETME_1.jpeg");
@@ -28,6 +28,7 @@ body {
 
   .myth{
     text-align: center;
+    width: 15%;
   }
   td, th {
     border: 1px solid white;
@@ -44,7 +45,7 @@ body {
     background-color: white;
     margin-left: 20%;
     margin-right: 20%;
-
+    margin-top: 50px;
   }
 
   h1,h2{
@@ -57,3 +58,37 @@ body {
     padding-top: 0px;
     margin-bottom: 0px;
   }
+
+.buttons{
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-bottom: 70px;
+  padding-bottom: 20px;"
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00a6eb;
+}
+
+
+li {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+li a{
+  color: white;
+}
+
+li a:hover {
+  opacity: 0.7;
+  text-decoration: none;
+  color:white;
+}

@@ -9,42 +9,54 @@
     <link href="https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
-    <p style="text-align: right;">
-        <img src="images\YDRETME.jpeg" alt="this is YDRETME logo" width="300" height="120">
-    </p>
+  <ul>
+    <li><a  title="Αρχική Σελίδα" href="Employee1.html"><img src="images/home_button.png" alt="home_button" type="image/jpeg"><b> ΥΔΡΕΤΜΕ</b></a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li style="float: right;"><a href="Log-in.html">
+        <svg class="bi bi-box-arrow-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M11.646 11.354a.5.5 0 010-.708L14.293 8l-2.647-2.646a.5.5 0 01.708-.708l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708 0z" clip-rule="evenodd"/>
+            <path fill-rule="evenodd" d="M4.5 8a.5.5 0 01.5-.5h9a.5.5 0 010 1H5a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
+            <path fill-rule="evenodd" d="M2 13.5A1.5 1.5 0 01.5 12V4A1.5 1.5 0 012 2.5h7A1.5 1.5 0 0110.5 4v1.5a.5.5 0 01-1 0V4a.5.5 0 00-.5-.5H2a.5.5 0 00-.5.5v8a.5.5 0 00.5.5h7a.5.5 0 00.5-.5v-1.5a.5.5 0 011 0V12A1.5 1.5 0 019 13.5H2z" clip-rule="evenodd"/>
+          </svg>
+        Αποσύνδεση</a></li>
+    <li style="float: right;"> Είσοδος ως: <b>Υπάλληλος Λογισμικού</b></li>
+  </ul>
     <div class="myclass1">
-        <h1><u>Διαγωνισμοί -  Έργα</u></h1>
+        <h1 id="top"><u>Διαγωνισμοί -  Έργα</u></h1>
         <hr>
       <table>
         <tr>
-          <th class="myth">Έργο</th>
-          <th class="myth">Διάρκεια Κατασκευής</th>
-          <th class="myth">Τόπος Εργασιών</th>
-          <th class="myth">Κόστος Εργασιών</th>
-          <th class="myth">Καθαρό Κέρδος</th>
-          <th class="myth">Συνεργάτες</th>
-          <th class="myth">Ανταγωνιστές</th>
+            <th class="myth">Έργο</th>
+            <th class="myth">Διάρκεια Κατασκευής</th>
+            <th class="myth">Τόπος Εργασιών</th>
+            <th class="myth">Κόστος Εργασιών</th>
+            <th class="myth">Καθαρό Κέρδος</th>
+            <th class="myth">Συνεργάτες</th>
         </tr>
         <tr>
-          <td>Φράγμα</td>
-          <td contenteditable='true'>24 Μήνες</td>
-          <td contenteditable='true'>Κυπαρισσία, Μεσσηνία</td>
-          <td contenteditable='true'>1.000.000‎€</td>
-          <td contenteditable='true'>250.000‎€</td>
-          <td contenteditable='true'>Εργολάβος1<br>Μηχανικός1</td>
-          <td><a style="color: black;" href="#ant1">Ανταγωνιστής 1</a></td>
+            <td><a style="color: black;" href="#ant1">Φράγμα 1</a></td>
+            <td contenteditable='true'>24 Μήνες</td>
+            <td contenteditable='true'>Κυπαρισσία, Μεσσηνία</td>
+            <td contenteditable='true'>1.000.000‎€</td>
+            <td contenteditable='true'>250.000‎€</td>
+            <td contenteditable='true'>Εργολάβος 1<br>Μηχανικός 1</td>
         </tr>
         <tr>
-          <td>Τόπος Εργασιών</td>
-          <td contenteditable='true'>Κυπαρισσία, Μεσσηνία</td>
+            <td><a style="color: black;" href="#ant2">Γέφυρα 1</a></td>
+            <td contenteditable='true'>20 Μήνες</td>
+            <td contenteditable='true'>Σαλαμίνα, Αττική</td>
+            <td contenteditable='true'>535.000€</td>
+            <td contenteditable='true'>90.000‎€</td>
+            <td contenteditable='true'>Εργολάβος 2<br>Μηχανικός 1</td>
         </tr>
         <tr>
-          <td>Κόστος Κατασκευής</td>
-          <td contenteditable='true'>1.000.000 ‎€</td>
-        </tr>
-        <tr>
-          <td>Καθαρό Κέρδος</td>
-          <td contenteditable='true'>250.000 ‎€</td>
+            <td><a style="color: black;" href="#ant3">Φράγμα 2</a></td>
+            <td contenteditable='true'>12 Μήνες</td>
+            <td contenteditable='true'>Μαραθιά, Μύκονος</td>
+            <td contenteditable='true'>1.500.000€</td>
+            <td contenteditable='true'>300.000‎€</td>
+            <td contenteditable='true'>Εργολάβος 2<br>Μηχανικός 2</td>
         </tr>
         </table>
         <hr style="height:3px;border-width:0;color:gray;background-color:gray">
@@ -52,42 +64,47 @@
         <table>
             <tr>
               <th class="myth">Έργο</th>
+              <th class="myth">Ανταγωνιστής</th>
               <th class="myth">Διάρκεια Κατασκευής</th>
-              <th class="myth">Τόπος Εργασιών</th>
               <th class="myth">Κόστος Εργασιών</th>
               <th class="myth">Καθαρό Κέρδος</th>
-              <th class="myth">Συνεργάτες</th>
-              <th class="myth">Ανταγωνιστές</th>
             </tr>
             <tr>
-              <td>Φράγμα</td>
-              <td contenteditable='true'>24 Μήνες</td>
-              <td contenteditable='true'>Κυπαρισσία, Μεσσηνία</td>
-              <td contenteditable='true'>1.000.000‎€</td>
-              <td contenteditable='true'>250.000‎€</td>
-              <td contenteditable='true'>Εργολάβος1<br>Μηχανικός1</td>
-              <td><a href="#ant1">Ανταγωνιστής 1</a></td>
+              <td id="ant1">Φράγμα 1</td>
+              <td contenteditable='true'>Ανταγωνιστής 1</td>
+              <td contenteditable='true'>22 Μήνες</td>
+              <td contenteditable='true'>1.300.000‎€</td>
+              <td contenteditable='true'>200.000‎€</td>
             </tr>
             <tr>
-              <td>Τόπος Εργασιών</td>
-              <td contenteditable='true'>Κυπαρισσία, Μεσσηνία</td>
+              <td id="ant2">Φράγμα 1</td>
+              <td contenteditable='true'>Ανταγωνιστής 2</td>
+              <td contenteditable='true'>26 Μήνες</td>
+              <td contenteditable='true'>950.000€</td>
+              <td contenteditable='true'>250.000€</td>
             </tr>
             <tr>
-              <td id="ant1">Κόστος Κατασκευής</td>
-              <td contenteditable='true'>1.000.000 ‎€</td>
+              <td id="ant3">Γέφυρα 1</td>
+              <td contenteditable='true'>Ανταγωνιστής 1</td>
+              <td contenteditable='true'>22 Μήνες</td>
+              <td contenteditable='true'>550.000‎€</td>
+              <td contenteditable='true'>200.000‎€</td>
             </tr>
             <tr>
-              <td>Καθαρό Κέρδος</td>
-              <td contenteditable='true'>250.000 ‎€</td>
+              <td>Φράγμα 2</td>
+              <td contenteditable='true'>Ανταγωνιστής 3</td>
+              <td contenteditable='true'>13 Μήνες</td>
+              <td contenteditable='true'>620.000‎€</td>
+              <td contenteditable='true'>230.000‎€</td>
             </tr>
             </table>
         <hr>
-        <p class="myclass2">
-          <div class="row">
-            <div class="col-md-4"><button style="background-color: rgb(10, 28, 196); margin-left:50%; margin-right:55%;margin-bottom:7%; " class="btn btn-lg btn-primary btn-block" type="submit"><span style="text-align: center;">Επεξεργασία</span></button></div>
-            <div class="col-md-4"><button style="background-color: rgb(10, 28, 196);margin-left:55%;" class="btn btn-lg btn-primary btn-block" type="submit"><span style="text-align: justify;"><span style="text-align: center;">Προσθήκη</span></button></div>
+        <div class="buttons">
+        <div class="row">
+            <div class="col-md-6"><a class="btn btn-lg btn-primary btn-block" href="#top">Επεξεργασία</a></div>
+            <div class="col-md-6"><a class="btn btn-lg btn-primary btn-block" href="Employee2.html">Προσθήκη</a></div>
           </div>
-        </p>
+        </div>
       </div>
 </body>
 </html>
