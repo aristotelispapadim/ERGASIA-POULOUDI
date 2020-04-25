@@ -46,3 +46,10 @@ body {
 p{
     color:white;
 }
+
+h2{
+  color:black;
+  background-color: wheat;
+  width: 40%;
+
+}
