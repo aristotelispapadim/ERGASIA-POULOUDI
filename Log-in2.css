@@ -44,7 +44,12 @@ body {
   border-top-right-radius: 0;
 }
 p{
-    color:white;
+  width: 70%;  
+  margin-top:5%; 
+  padding-left:30%; 
+  text-align:center; 
+  color:white; 
+  font-size: medium;
 }
 
 h2{
